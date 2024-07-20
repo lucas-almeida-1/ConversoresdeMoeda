@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Conversor de Moedas - Trabalho Final Javascript</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Conversor de Moedas</h1>
+        <div class="input-group">
+            <label for="valor">Digite o valor em reais (BRL):</label>
+            <input type="text" id="valor" placeholder="Ex.: 100" required>
+            <label for="taxa">Digite a taxa de câmbio atual:</label>
+            <input type="text" id="taxa" placeholder="Ex.: 5.26" required>
+            <label for="moedas">Selecione a moeda para conversão:</label>
+            <select id="moedas">
+                <option value="USD">Dólar Americano</option>
+                <option value="EUR">Euro</option>
+                <option value="GBP">Libra Esterlina</option>
+                <option value="JPY">Iene Japonês</option>
+                <option value="CAD">Dólar Canadense</option>
+                <!-- Outras moedas -->
+            </select>
+<!--         <button id="converterButton">Converter</button> -->
+            <button onclick="converter()">Converter</button>
+        </div>
+        <h2 id="resultado"></h2>
+    </div>
+    <script src="main.js"></script>
+    <footer class="footer">© 2024 - Introdução à Programação em JavaScript</footer>
+</body>
+</html>

@@ -1,0 +1,64 @@
+body {
+    font-family: URW Chancery L, cursive; /* Define a fonte do corpo do documento */
+    text-align: center; /* Centraliza o texto */
+    background-image: url('./images/money.webp'); /* Define a imagem de fundo */
+    background-repeat: no-repeat; /* Evita que a imagem de fundo se repita */
+    background-size: cover; /* Faz com que a imagem de fundo cubra toda a área */
+    margin: 0; /* Remove as margens */
+    height: 100vh; /* Define a altura do corpo para 100% da altura da janela de visualização */
+    display: flex; /* Define o modelo de layout flexível */
+    flex-direction: column; /* Define a direção dos itens flexíveis como coluna */
+    align-items: center; /* Centraliza os itens flexíveis horizontalmente */
+    justify-content: center; /* Centraliza os itens flexíveis verticalmente */
+}
+
+.container {
+    text-align: center; /* Centraliza o texto */
+    padding: 20px; /* Adiciona um preenchimento */
+    border-radius: 10px; /* Arredonda os cantos da borda */
+    background-color: white; /* Define a cor de fundo */
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1); /* Adiciona uma sombra ao redor do contêiner */
+    margin-bottom: 50px; /* Adiciona uma margem na parte inferior */
+    display: flex; /* Define o modelo de layout flexível */
+    flex-direction: column; /* Define a direção dos itens flexíveis como coluna */
+    align-items: center; /* Centraliza os itens flexíveis horizontalmente */
+    border: 2px solid black; /* Adiciona uma borda sólida */
+}
+
+.title {
+    margin-bottom: 50px; /* Adiciona uma margem na parte inferior */
+}
+
+.input-group {
+    display: flex; /* Define o modelo de layout flexível */
+    flex-direction: column; /* Define a direção dos itens flexíveis como coluna */
+    align-items: center; /* Centraliza os itens flexíveis horizontalmente */
+    gap: 10px; /* Adiciona um espaço entre os itens flexíveis */
+    margin-bottom: 20px; /* Adiciona uma margem na parte inferior */
+}
+
+input[type="text"] {
+    margin-bottom: 10px; /* Adiciona uma margem na parte inferior */
+}
+
+footer {
+    position: fixed; /* Fixa o rodapé na parte inferior da página */
+    bottom: 0; /* Posiciona o rodapé na parte inferior */
+    width: 100%; /* Define a largura do rodapé para 100% */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px 0; /* Adiciona um preenchimento */
+    background-color: #f8f8f8; /* Define a cor de fundo */
+}
+
+h1 {
+    color: #333; /* Define a cor do texto */
+}
+
+button {
+    font-size: 18px; /* Define o tamanho da fonte */
+    padding: 10px 20px; /* Adiciona um preenchimento */
+    margin: 10px; /* Adiciona uma margem */
+    cursor: pointer; /* Muda o cursor para um ponteiro quando passa sobre o botão */
+    background-color: #4CAF50; /* Define a cor de fundo */
+    color: white; /* Define a cor do texto */
+}
